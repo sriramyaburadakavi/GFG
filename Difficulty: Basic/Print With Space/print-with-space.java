@@ -1,7 +1,10 @@
-public class Solution {
-    public void utility(Scanner scn) {
-        // code here
-           
-    System.out.println(scn.nextLine()+" "+scn.nextLine());
+class Solution
+{
+    public void utility(Scanner scn)
+    {
+        String a = scn.next();
+        String b = scn.next();
+        
+        System.out.println(a + " " + b);
     }
 }
